@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $(cut -c 1 < /dev/stdin | tr -d '\n')
